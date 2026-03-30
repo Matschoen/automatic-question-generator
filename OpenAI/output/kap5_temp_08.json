@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel5.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.8,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Was symbolisiert der <p>-Tag in HTML?",
+          "options": {
+            "A": "Paragraph",
+            "B": "Bild",
+            "C": "Hyperlink",
+            "D": "Überschrift"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welches Tag wird verwendet, um Text in Absätze zu gliedern?",
+          "options": {
+            "A": "<p>",
+            "B": "<div>",
+            "C": "<h1>",
+            "D": "<blockquote>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welches HTML-Tag sollte verwendet werden, um einen strukturierten Abschnitt in einer Webseite zu erstellen?",
+          "options": {
+            "A": "<div>",
+            "B": "<span>",
+            "C": "<p>",
+            "D": "<blockquote>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Funktion haben <div>- und <p>-Tags in HTML und wie unterscheiden sie sich in ihrer Verwendung?",
+          "options": {
+            "A": "<div>-Tags gruppieren Inhalte logisch, während <p>-Tags Text in Absätze gliedern.",
+            "B": "<div>-Tags formatieren Text, während <p>-Tags Links zu anderen Seiten erstellen.",
+            "C": "<div>-Tags dienen zur Bilddarstellung, während <p>-Tags die Struktur von Tabellen definieren.",
+            "D": "<div>-Tags sind Inline-Elemente, während <p>-Tags Blockelemente sind."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welches HTML-Tag wird bevorzugt, um die Hauptüberschrift einer Webseite zu kennzeichnen?",
+          "options": {
+            "A": "<h1>",
+            "B": "<h2>",
+            "C": "<div>",
+            "D": "<p>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welches HTML-Tag sollte als erstes in einem Dokument verwendet werden, um die Struktur optimal zu gestalten?",
+          "options": {
+            "A": "<h1>",
+            "B": "<div>",
+            "C": "<p>",
+            "D": "<blockquote>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 2"
+        }
+      ]
+    }
+  ]
+}

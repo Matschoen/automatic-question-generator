@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel7.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.8,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welches HTML-Tag wird für die Erstellung von Hyperlinks verwendet?",
+          "options": {
+            "A": "<a>",
+            "B": "<link>",
+            "C": "<href>",
+            "D": "<url>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welches Attribut des <a>-Tags definiert das Ziel des Links?",
+          "options": {
+            "A": "href",
+            "B": "title",
+            "C": "target",
+            "D": "rel"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Wie würden Sie in einem HTML-Dokument einen Link zu einer externen Website erstellen, der in einem neuen Tab geöffnet wird?",
+          "options": {
+            "A": "<a href=\"https://www.example.com\" target=\"_blank\">Example</a>",
+            "B": "<a href=\"example.com\">Example</a>",
+            "C": "<a href=\"mailto:info@example.com\">Example</a>",
+            "D": "<a href=\"#section1\">Example</a>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen beschreibt am besten den Unterschied zwischen absoluten und relativen Verlinkungen in HTML?",
+          "options": {
+            "A": "Absolute Verlinkungen verwenden den vollständigen URL, während relative Verlinkungen den Pfad zur Ressource abhängig von der aktuellen Datei angeben.",
+            "B": "Relative Verlinkungen sind sicherer als absolute Verlinkungen, da sie keine externen Websites einbeziehen.",
+            "C": "Absolute Verlinkungen sind nur für interne Ressourcen geeignet, während relative Verlinkungen für externe Ressourcen verwendet werden.",
+            "D": "Absolute Verlinkungen können nur in E-Mails verwendet werden, während relative Verlinkungen auf Webseiten beschränkt sind."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche Art von Verlinkung ist am besten geeignet, um auf externe Ressourcen zu verweisen?",
+          "options": {
+            "A": "Externe Verlinkungen",
+            "B": "Interne Verlinkungen",
+            "C": "Anker-Verlinkungen",
+            "D": "Relative Verlinkungen"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche Verlinkungsstrategie sorgt für eine optimale Benutzererfahrung und Suchmaschinenoptimierung, wenn eine Webseite aktualisiert wird?",
+          "options": {
+            "A": "Verwendung relativer Verlinkungen für interne Links",
+            "B": "Verwendung absoluter Verlinkungen für externe Links",
+            "C": "Verwendung von Anker-Verlinkungen für alle internen Links",
+            "D": "Verwendung von E-Mail-Links für Kontaktseiten"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 4"
+        }
+      ]
+    }
+  ]
+}

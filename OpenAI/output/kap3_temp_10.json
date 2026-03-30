@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel3.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 1.0,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Was wird in HTML verwendet, um den Beginn und das Ende eines Elements zu kennzeichnen?",
+          "options": {
+            "A": "Tags",
+            "B": "Klassen",
+            "C": "Knoten",
+            "D": "Kommentare"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Was beschreibt das <head>-Tag in einem HTML-Dokument?",
+          "options": {
+            "A": "Es enthält Metadaten und strukturelle Informationen für das Dokument.",
+            "B": "Es zeigt den sichtbaren Inhalt der Webseite an.",
+            "C": "Es definiert das Dokumentenformat und den -typ.",
+            "D": "Es wird verwendet, um Bilder einzufügen."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Wie sollte die Sprache eines HTML-Dokuments korrekt festgelegt werden?",
+          "options": {
+            "A": "<html lang='de'>",
+            "B": "<html language='de'>",
+            "C": "<html lang='german'>",
+            "D": "<html lang='deutsch'>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Wie beeinflusst die Strukturierung eines HTML-Dokuments die Browser-Darstellung?",
+          "options": {
+            "A": "Eine korrekte Struktur ermöglicht es dem Browser, das Dokument effizient zu rendern.",
+            "B": "Die Struktur spielt keine Rolle, solange die Tags korrekt sind.",
+            "C": "Die Browser-Darstellung hängt nur von den CSS-Styles ab.",
+            "D": "Ein HTML-Dokument kann ohne jegliche Struktur dargestellt werden."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche Aussage über HTML und seine Struktur hat die größte Bedeutung für die korrekte Darstellung von Webseiten?",
+          "options": {
+            "A": "Die <!DOCTYPE>-Deklaration ist entscheidend für die korrekte Interpretation durch Browser.",
+            "B": "Alle HTML-Tags müssen in Großbuchstaben geschrieben werden, um korrekt zu funktionieren.",
+            "C": "Der <body>-Bereich ist der einzige Abschnitt, der für Suchmaschinen relevant ist.",
+            "D": "HTML kann nur mit speziellen Programmiersprachen bearbeitet werden."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welches der folgenden HTML-Dokumente erfüllt alle grundlegenden Strukturvorgaben laut den Best Practices?",
+          "options": {
+            "A": "<!DOCTYPE html><html lang='de'><head><title>Test</title></head><body></body></html>",
+            "B": "<html><head><title>Test</title><body></body></html>",
+            "C": "<!DOCTYPE html><body><title>Test</title></body></html>",
+            "D": "<html lang='en'><head><title>Test</head><body></body></html>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}

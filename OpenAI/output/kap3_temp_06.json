@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel3.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.6,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Was ist HTML?",
+          "options": {
+            "A": "Eine Programmiersprache",
+            "B": "Eine Sprache zur Auszeichnung von Texten",
+            "C": "Ein Grafikdesign-Tool",
+            "D": "Ein Textverarbeitungsprogramm"
+          },
+          "correct_answer": "B",
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche Funktion hat der <head>-Bereich in einem HTML-Dokument?",
+          "options": {
+            "A": "Er enthält den sichtbaren Inhalt der Webseite.",
+            "B": "Er stellt Metadaten und strukturelle Informationen bereit.",
+            "C": "Er definiert die Sprache des Dokuments.",
+            "D": "Er ist für die Kommentare im Code zuständig."
+          },
+          "correct_answer": "B",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Wie würden Sie ein Bild in ein HTML-Dokument einfügen?",
+          "options": {
+            "A": "<img src='bild.jpg'>",
+            "B": "<image src='bild.jpg'>",
+            "C": "<picture src='bild.jpg'>",
+            "D": "<imgage src='bild.jpg'>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Aussage beschreibt am besten die Rolle des <head>-Tags in einem HTML-Dokument?",
+          "options": {
+            "A": "Es enthält den sichtbaren Inhalt der Webseite.",
+            "B": "Es definiert die Sprache des Dokuments und enthält Metadaten.",
+            "C": "Es ist nur für die Darstellung von Bildern verantwortlich.",
+            "D": "Es wird nicht benötigt und kann weggelassen werden."
+          },
+          "correct_answer": "B",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welches Argument unterstützt die Verwendung von HTML als Auszeichnungssprache und nicht als Programmiersprache?",
+          "options": {
+            "A": "HTML strukturiert Inhalte, bietet jedoch keine Programmierlogik.",
+            "B": "HTML ist case-sensitive und erfordert komplexe Syntax.",
+            "C": "HTML kann nur in speziellen Editoren erstellt werden.",
+            "D": "HTML kann keine Bilder einbetten."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welches der folgenden Konzepte sollte bei der Strukturierung eines HTML-Dokuments als optimal angesehen werden?",
+          "options": {
+            "A": "Die Verwendung von <head> für Metadaten und <body> für sichtbare Inhalte.",
+            "B": "Alle Inhalte sollten direkt im <html>-Tag platziert werden.",
+            "C": "Das <head>-Tag sollte weggelassen werden, um den Code zu vereinfachen.",
+            "D": "Die Verwendung von mehreren <html>-Tags innerhalb eines Dokuments."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}

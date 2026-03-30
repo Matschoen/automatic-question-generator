@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel3.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.8,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Was ist HTML?",
+          "options": {
+            "A": "Eine Programmiersprache",
+            "B": "Eine Sprache zur Auszeichnung von Texten",
+            "C": "Ein Grafikformat",
+            "D": "Ein Datenbankmanagementsystem"
+          },
+          "correct_answer": "B",
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche Rolle spielt der <head>-Bereich in einem HTML-Dokument?",
+          "options": {
+            "A": "Er enthält den sichtbaren Inhalt der Webseite.",
+            "B": "Er stellt Metadaten und strukturelle Informationen bereit.",
+            "C": "Er definiert die Bildquellen der Webseite.",
+            "D": "Er listet alle verwendeten HTML-Tags auf."
+          },
+          "correct_answer": "B",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche Struktur ist notwendig, um ein korrektes HTML-Dokument zu erstellen?",
+          "options": {
+            "A": "<!DOCTYPE html><html><head><title></title></head><body></body></html>",
+            "B": "<html><head><body></body><title></title></head></html>",
+            "C": "<!DOCTYPE html><head><html><body></body></html></head>",
+            "D": "<html><title></title><body></body><head></head></html>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Rolle spielt der <head>-Bereich in einem HTML-Dokument?",
+          "options": {
+            "A": "Er enthält den sichtbaren Inhalt der Webseite.",
+            "B": "Er definiert Metadaten und strukturelle Informationen für das Dokument.",
+            "C": "Er ermöglicht die Verwendung von JavaScript im Dokument.",
+            "D": "Er ist für die Speicherung von Bildern zuständig."
+          },
+          "correct_answer": "B",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche Aussage über die Struktur eines HTML-Dokuments ist am zutreffendsten?",
+          "options": {
+            "A": "Die <!DOCTYPE>-Deklaration ist unerlässlich für die korrekte Anzeige im Browser.",
+            "B": "Der <head>-Bereich enthält den sichtbaren Inhalt der Webseite.",
+            "C": "HTML kann ohne Tags erstellt werden, um die Flexibilität zu erhöhen.",
+            "D": "Das <body>-Element muss immer leer sein, um korrekt dargestellt zu werden."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welches XML-ähnliche Layout sollte bei der Gestaltung einer HTML-Dokumentstruktur beachtet werden?",
+          "options": {
+            "A": "<!DOCTYPE html> muss an erster Stelle stehen.",
+            "B": "Der <head>-Tag sollte im <body>-Tag platziert werden.",
+            "C": "Die <html>-Tags sollten in Großbuchstaben geschrieben werden.",
+            "D": "Alle Tags müssen in beliebiger Reihenfolge angeordnet sein."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}

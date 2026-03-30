@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel7.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.6,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Was ist das Hauptattribut des <a>-Tags in HTML?",
+          "options": {
+            "A": "href",
+            "B": "src",
+            "C": "alt",
+            "D": "title"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche Funktion hat das href-Attribut im <a>-Tag?",
+          "options": {
+            "A": "Es definiert das Ziel des Links.",
+            "B": "Es bestimmt die Farbe des Linktexts.",
+            "C": "Es legt fest, ob der Link in einem neuen Fenster geöffnet wird.",
+            "D": "Es gibt an, ob der Link unterstrichen wird."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welches Attribut im <a>-Tag sorgt dafür, dass ein Link in einem neuen Tab geöffnet wird?",
+          "options": {
+            "A": "target",
+            "B": "href",
+            "C": "title",
+            "D": "rel"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Aussage beschreibt am besten den Unterschied zwischen absoluten und relativen Verlinkungen in HTML?",
+          "options": {
+            "A": "Absolute Verlinkungen beziehen sich auf die Position innerhalb der Domain, während relative Verlinkungen den vollständigen URL angeben.",
+            "B": "Absolute Verlinkungen geben den vollständigen URL an, während relative Verlinkungen den Pfad in Relation zur aktuellen Datei definieren.",
+            "C": "Relative Verlinkungen sind nur für interne Links geeignet, während absolute Verlinkungen auch externe Links umfassen.",
+            "D": "Absolute Verlinkungen sind flexibler als relative Verlinkungen, da sie sich automatisch an Änderungen der Domain anpassen."
+          },
+          "correct_answer": "B",
+          "source": "Kapitel7.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welcher Verlinkungstyp ist am besten geeignet, um die Benutzererfahrung auf einer Webseite zu optimieren, indem externe Links in einem neuen Tab geöffnet werden?",
+          "options": {
+            "A": "Externe Verlinkungen",
+            "B": "Interne Verlinkungen",
+            "C": "Anker-Verlinkungen",
+            "D": "Relative Verlinkungen"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche Vorgehensweise zur Erstellung von internen Verlinkungen in HTML ist die sinnvollste, um die Wartung der Webseite zu erleichtern?",
+          "options": {
+            "A": "Verwendung relativer Pfade für interne Links.",
+            "B": "Nutzung absoluter Pfade für alle Links.",
+            "C": "Einsatz von E-Mail-Links für interne Navigation.",
+            "D": "Verlinkung auf externe Seiten für interne Informationen."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    }
+  ]
+}

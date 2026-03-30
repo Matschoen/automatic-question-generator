@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel7.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 1.0,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Was bezeichnet man in HTML als Hyperlink?",
+          "options": {
+            "A": "Einen interaktiven Verweis, der zu einer anderen Ressource führt.",
+            "B": "Ein Bild auf einer Webseite.",
+            "C": "Ein Textformatierungs-Element.",
+            "D": "Eine HTML-Kommentierung."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Was beschreibt das Attribut 'href' im <a>-Tag?",
+          "options": {
+            "A": "Das Ziel des Links.",
+            "B": "Die Farbe des Linktexts.",
+            "C": "Die Art des Links.",
+            "D": "Die Sicherheitseinstellungen des Links."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Wie würde ein relativer Link aussehen, um von der Datei 'aktuelle-seite.html' im Verzeichnis 'ordner1' auf 'ziel-seite.html' im Verzeichnis 'ordner2' zu verweisen?",
+          "options": {
+            "A": "<a href='../ordner2/ziel-seite.html'>Gehe zu Ziel-Seite</a>",
+            "B": "<a href='/ordner2/ziel-seite.html'>Gehe zu Ziel-Seite</a>",
+            "C": "<a href='./ordner2/ziel-seite.html'>Gehe zu Ziel-Seite</a>",
+            "D": "<a href='target='_blank' href='ziel-seite.html'>Gehe zu Ziel-Seite</a>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 6"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Eigenschaften unterscheiden interne von externen Verlinkungen in HTML?",
+          "options": {
+            "A": "Interne Verlinkungen verwenden relative Pfade, externe vollständige URLs.",
+            "B": "Interne Verlinkungen öffnen neue Fenster, externe nicht.",
+            "C": "Interne Verlinkungen führen zu E-Mail-Adressen, externe zu Webseiten.",
+            "D": "Interne Verlinkungen nutzen das mailto: Attribut, externe das tel: Attribut."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche Art von Verlinkung wäre die beste Wahl, wenn sich die Domain einer Webseite ändert?",
+          "options": {
+            "A": "Relative Verlinkung",
+            "B": "Absolute Verlinkung",
+            "C": "Anker-Verlinkung",
+            "D": "Externe Verlinkung"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welches HTML-Markup stellt die beste Lösung für eine interne Verlinkung auf eine andere Seite der gleichen Domain dar?",
+          "options": {
+            "A": "<a href=\"kontakt.html\">Kontaktseite</a>",
+            "B": "<a href=\"https://www.fh-burgenland.at\">FH Burgenland besuchen</a>",
+            "C": "<a href=\"mailto:beispiel@domain.com\">E-Mail senden</a>",
+            "D": "<a href=\"tel:+1234567890\">Rufen Sie uns an</a>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    }
+  ]
+}

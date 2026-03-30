@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel7.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.4,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welches HTML-Tag wird verwendet, um Hyperlinks zu erstellen?",
+          "options": {
+            "A": "<a>",
+            "B": "<link>",
+            "C": "<href>",
+            "D": "<hyperlink>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Was ist das Hauptattribut des <a>-Tags in HTML?",
+          "options": {
+            "A": "href",
+            "B": "title",
+            "C": "class",
+            "D": "style"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Wie würden Sie einen Link zu einer internen Seite namens 'kontakt.html' in HTML erstellen?",
+          "options": {
+            "A": "<a href='kontakt.html'>Kontaktseite</a>",
+            "B": "<a href='https://www.example.com/kontakt.html'>Kontaktseite</a>",
+            "C": "<a href='mailto:kontakt@example.com'>Kontaktseite</a>",
+            "D": "<a href='tel:+1234567890'>Kontaktseite</a>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen beschreibt am besten die Unterschiede zwischen internen und externen Verlinkungen in HTML?",
+          "options": {
+            "A": "Interne Verlinkungen verweisen auf Seiten innerhalb derselben Domain, während externe Verlinkungen auf Seiten außerhalb der Domain zeigen.",
+            "B": "Interne Verlinkungen verwenden immer absolute URLs, externe Verlinkungen hingegen relative URLs.",
+            "C": "Interne Verlinkungen sind nur für Navigation innerhalb von Dokumenten geeignet, externe Verlinkungen für die Navigation zwischen Dokumenten.",
+            "D": "Interne Verlinkungen können nicht in Navigationsmenüs verwendet werden, externe Verlinkungen hingegen schon."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche Art von Verlinkung ist am besten geeignet, um Benutzer auf externe Webseiten zu führen?",
+          "options": {
+            "A": "Externe Verlinkungen",
+            "B": "Interne Verlinkungen",
+            "C": "Anker-Verlinkungen",
+            "D": "Relative Verlinkungen"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welches Konzept zur Verlinkung in HTML sollte bevorzugt werden, um interne Seiten effizient zu verlinken und die Wartung zu erleichtern?",
+          "options": {
+            "A": "Relative Verlinkungen",
+            "B": "Absolute Verlinkungen",
+            "C": "Anker-Verlinkungen",
+            "D": "Externe Verlinkungen"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel7.pdf, Seite 6"
+        }
+      ]
+    }
+  ]
+}

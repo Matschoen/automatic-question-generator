@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel3.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.4,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Was ist HTML?",
+          "options": {
+            "A": "Eine Sprache zur Auszeichnung von Texten",
+            "B": "Eine Programmiersprache",
+            "C": "Ein Texteditor",
+            "D": "Ein Webbrowser"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche Rolle spielt der <head>-Bereich in einem HTML-Dokument?",
+          "options": {
+            "A": "Er enthält den sichtbaren Inhalt der Webseite.",
+            "B": "Er stellt Metadaten und strukturelle Informationen bereit.",
+            "C": "Er definiert die Sprache des Dokuments.",
+            "D": "Er dient zur Einbettung von Bildern."
+          },
+          "correct_answer": "B",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Wie würden Sie ein Bild in eine HTML-Seite einfügen?",
+          "options": {
+            "A": "<img src='bild.jpg'>",
+            "B": "<image src='bild.jpg'>",
+            "C": "<picture src='bild.jpg'>",
+            "D": "<img link='bild.jpg'>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Rolle spielt der <head>-Bereich in einem HTML-Dokument?",
+          "options": {
+            "A": "Er enthält den sichtbaren Inhalt der Webseite.",
+            "B": "Er stellt Metadaten und strukturelle Informationen bereit.",
+            "C": "Er definiert die Sprache des Dokuments.",
+            "D": "Er ist für die Benutzerinteraktion zuständig."
+          },
+          "correct_answer": "B",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welches Element ist entscheidend für die korrekte Darstellung eines HTML-Dokuments im Browser?",
+          "options": {
+            "A": "<!DOCTYPE html>",
+            "B": "<head>",
+            "C": "<body>",
+            "D": "<html>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welches HTML-Dokument-Design gewährleistet die beste Struktur und Lesbarkeit für eine Webseite?",
+          "options": {
+            "A": "<!DOCTYPE html><html lang='de'><head><title>Meine Webseite</title></head><body><h1>Willkommen</h1><p>Inhalt hier</p></body></html>",
+            "B": "<html><head><title>Meine Webseite</title></head><body><h1>Willkommen</h1><p>Inhalt hier</p></body></html>",
+            "C": "<!DOCTYPE html><html><head><title>Meine Webseite</title></head><body><h1>Willkommen</h1><p>Inhalt hier</p></body></html>",
+            "D": "<!DOCTYPE html><html lang='en'><head><title>Meine Webseite</title></head><body><h1>Willkommen</h1><p>Inhalt hier</p></body></html>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel5.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.4,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Was steht der <p>-Tag in HTML für?",
+          "options": {
+            "A": "Paragraph",
+            "B": "Picture",
+            "C": "Page",
+            "D": "Part"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welches Element wird verwendet, um Text in Absätze zu gliedern?",
+          "options": {
+            "A": "<p>",
+            "B": "<div>",
+            "C": "<h1>",
+            "D": "<blockquote>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welches HTML-Tag sollten Sie verwenden, um einen Textabsatz zu erstellen?",
+          "options": {
+            "A": "<p>",
+            "B": "<div>",
+            "C": "<h1>",
+            "D": "<blockquote>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Funktion erfüllen die <div>- und <p>-Tags in einem HTML-Dokument?",
+          "options": {
+            "A": "<div> gruppiert Inhalte, <p> strukturiert Text in Absätzen.",
+            "B": "<div> zeigt Bilder an, <p> erstellt Hyperlinks.",
+            "C": "<div> definiert die Schriftgröße, <p> hebt Text hervor.",
+            "D": "<div> ist für Formulare, <p> für Tabellen."
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welches HTML-Tag ist am besten geeignet, um den Haupttitel einer Webseite zu kennzeichnen?",
+          "options": {
+            "A": "<h1>",
+            "B": "<div>",
+            "C": "<p>",
+            "D": "<blockquote>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel5.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welches HTML-Tag sollte verwendet werden, um die Struktur einer Webseite klar zu definieren und gleichzeitig die Lesbarkeit zu verbessern?",
+          "options": {
+            "A": "<div>",
+            "B": "<p>",
+            "C": "<h1>",
+            "D": "<blockquote>"
+          },
+          "correct_answer": "C",
+          "source": "Kapitel5.pdf, Seite 2"
+        }
+      ]
+    }
+  ]
+}

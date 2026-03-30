@@ -1,0 +1,109 @@
+{
+  "source_pdf": "Kapitel3.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.2,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Was ist HTML?",
+          "options": {
+            "A": "Eine Sprache zur Auszeichnung von Texten",
+            "B": "Eine Programmiersprache",
+            "C": "Ein Grafikdesign-Tool",
+            "D": "Ein Betriebssystem"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche Funktion hat der <head>-Bereich in einem HTML-Dokument?",
+          "options": {
+            "A": "Er enthält den sichtbaren Inhalt der Webseite.",
+            "B": "Er definiert Metadaten und strukturelle Informationen.",
+            "C": "Er wird vom Browser ignoriert.",
+            "D": "Er ist für die Programmierung von Webseiten zuständig."
+          },
+          "correct_answer": "B",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Wie würden Sie ein Bild in eine HTML-Seite einfügen?",
+          "options": {
+            "A": "<img src='bild.jpg'>",
+            "B": "<image src='bild.jpg'>",
+            "C": "<picture src='bild.jpg'>",
+            "D": "<imgage src='bild.jpg'>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Aussage beschreibt am besten die Rolle des <head>-Tags in einem HTML-Dokument?",
+          "options": {
+            "A": "Es enthält den sichtbaren Inhalt der Webseite.",
+            "B": "Es definiert Metadaten und strukturelle Informationen für das Dokument.",
+            "C": "Es ist für die Einbettung von Bildern zuständig.",
+            "D": "Es wird verwendet, um Kommentare im Code zu hinterlassen."
+          },
+          "correct_answer": "B",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welches der folgenden Elemente ist entscheidend für die korrekte Darstellung eines HTML-Dokuments im Browser?",
+          "options": {
+            "A": "<!DOCTYPE html>",
+            "B": "<head>",
+            "C": "<body>",
+            "D": "<meta>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welches HTML-Dokument-Layout gewährleistet die korrekte Darstellung einer Webseite?",
+          "options": {
+            "A": "<!DOCTYPE html><html><head><title></title></head><body></body></html>",
+            "B": "<html><head><title></title></head><body></body></html>",
+            "C": "<!DOCTYPE html><head><title></title></head><body></body></html>",
+            "D": "<!DOCTYPE html><html><body></body></html>"
+          },
+          "correct_answer": "A",
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}
