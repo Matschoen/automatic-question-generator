@@ -1,4 +1,4 @@
-# Mistral Question Generator
+# Automatic Question Generator
 
 Dieses Repository dokumentiert den Quellcode und die Rohdaten zur Bachelorarbeit  
 **„Automatische Fragengenerierung mit Large Language Models (LLMs) zur Unterstützung der akademischen Lehre“**.
