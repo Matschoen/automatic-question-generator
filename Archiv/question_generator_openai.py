@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from pypdf import PdfReader
 
-BASE_DIR = Path(r"C:\Users\Marcel Wagner\PycharmProjects\PythonProject1")
+BASE_DIR = Path(r"/")
 TEACHING_MATERIAL_DIR = BASE_DIR / "Teaching_Material"
 OUTPUT_DIR = BASE_DIR / "OpenAI" / "output"
 ENV_FILE = BASE_DIR / "OpenAI" / ".env"
@@ -20,7 +20,7 @@ BLOOM_LEVELS = {
     "3": "Anwenden",
     "4": "Analysieren",
     "5": "Bewerten",
-    "6": "Erstellen",
+    "6": "Erstellen"
 }
 
 
@@ -145,13 +145,15 @@ Wichtige Regeln:
 1) Verwende ausschliesslich Informationen aus dem bereitgestellten PDF-Text.
 2) Erfinde keine Inhalte.
 3) Jede Frage muss genau 4 Antwortoptionen haben: A, B, C, D.
-4) Genau eine Antwort darf korrekt sein.
-5) Die Frage muss klar zur Bloom-Stufe {bloom_level} ({bloom_name}) passen.
-6) Formuliere kurz, klar und praezise.
-7) Gib als source den Dateinamen und eine passende Seitenzahl an.
-8) Gib nur gueltiges JSON zurueck, ohne Markdown, ohne Einleitung, ohne Erklaerung.
-9) Gib genau ein JSON-Objekt zurueck.
-10) Speichere die richtige Antwort als Buchstabe unter "correct_answer".
+4) Es duerfen eine bis vier Antworten korrekt sein.
+5) Mindestens eine und hoechstens vier Antworten muessen korrekt sein.
+6) Speichere alle korrekten Antworten als Liste von Buchstaben unter "correct_answers".
+7) Die Frage muss klar zur Bloom-Stufe {bloom_level} ({bloom_name}) passen.
+8) Formuliere kurz, klar und praezise.
+9) Gib als source den Dateinamen und eine passende Seitenzahl an.
+10) Gib nur gueltiges JSON zurueck, ohne Markdown, ohne Einleitung, ohne Erklaerung.
+11) Gib genau ein JSON-Objekt zurueck.
+12) Speichere die richtige Antwort als Buchstabe unter "correct_answer".
 
 {bloom_extra}
 
@@ -168,7 +170,7 @@ Das JSON muss exakt dieses Format haben:
         "C": "string",
         "D": "string"
       }},
-      "correct_answer": "A",
+      "correct_answers": ["A", "C"]
       "source": "{pdf_name}, Seite 1"
     }}
   ]
