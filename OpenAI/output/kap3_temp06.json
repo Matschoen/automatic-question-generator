@@ -1,0 +1,132 @@
+{
+  "source_pdf": "Kapitel3.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.6,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags sind Standalone-Tags?",
+          "options": {
+            "A": "<img>",
+            "B": "<div>",
+            "C": "<br>",
+            "D": "<p>"
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "HTML-Tags sind nicht case-sensitive.",
+            "B": "HTML-Tags benötigen immer ein schließendes Tag.",
+            "C": "Standalone-Tags benötigen kein schließendes Tag.",
+            "D": "HTML-Tags werden in spitze Klammern gesetzt."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags und deren Verwendung sind korrekt?",
+          "options": {
+            "A": "HTML-Tags müssen immer in Großbuchstaben geschrieben werden.",
+            "B": "Standalone-Tags benötigen keinen schließenden Tag.",
+            "C": "HTML-Tags können Attribute haben, die spezifische Merkmale definieren.",
+            "D": "Die Struktur eines HTML-Dokuments muss eine <!DOCTYPE>-Deklaration enthalten."
+          },
+          "correct_answers": [
+            "B",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Aussagen über HTML-Tags und deren Verwendung sind korrekt?",
+          "options": {
+            "A": "HTML-Tags sind in spitzen Klammern und können verschachtelt werden.",
+            "B": "Standalone-Tags benötigen kein schließendes Tag.",
+            "C": "Alle Tags in HTML sind case-sensitive.",
+            "D": "Attribute von HTML-Tags können spezifische Merkmale definieren."
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche Aussagen zur Struktur und Verwendung von HTML sind korrekt?",
+          "options": {
+            "A": "HTML ist eine Programmiersprache zur Erstellung dynamischer Webseiten.",
+            "B": "Die <!DOCTYPE>-Deklaration ist entscheidend für die korrekte Darstellung im Browser.",
+            "C": "Der <head>-Bereich enthält Metadaten, die für Suchmaschinenoptimierung wichtig sind.",
+            "D": "HTML-Tags sind in ihrer Schreibweise nicht case-sensitive und sollten in Großbuchstaben geschrieben werden."
+          },
+          "correct_answers": [
+            "B",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Elemente und Strukturen sind entscheidend für die Erstellung eines funktionalen HTML-Dokuments? Wählen Sie alle zutreffenden Optionen aus.",
+          "options": {
+            "A": "<html> Tag zur Definition des Dokumenttyps",
+            "B": "<head> Tag für Metadaten und Titel",
+            "C": "<body> Tag für den sichtbaren Inhalt",
+            "D": "<style> Tag zur Definition von Kommentaren"
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}

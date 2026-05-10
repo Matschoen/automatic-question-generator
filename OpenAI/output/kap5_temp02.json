@@ -1,0 +1,131 @@
+{
+  "source_pdf": "Kapitel5.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.2,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags werden zur Strukturierung von Webseiten verwendet? (Mehrere Antworten möglich)",
+          "options": {
+            "A": "<p>",
+            "B": "<img>",
+            "C": "<div>",
+            "D": "<a>"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "Der <p>-Tag wird verwendet, um Text in Absätze zu gliedern.",
+            "B": "<div>-Tags sind sichtbar, auch ohne CSS-Styling.",
+            "C": "Die <h1>-Überschrift ist die wichtigste Überschrift in einem Dokument.",
+            "D": "<blockquote>-Tags werden für kurze Zitate verwendet."
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags können verwendet werden, um Text in einem Dokument zu strukturieren und hervorzuheben? Wählen Sie alle zutreffenden Antworten.",
+          "options": {
+            "A": "<p>",
+            "B": "<div>",
+            "C": "<strong>",
+            "D": "<img>"
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt? Wählen Sie alle zutreffenden Antworten aus.",
+          "options": {
+            "A": "Der <p>-Tag wird verwendet, um Text in Absätze zu gliedern.",
+            "B": "<div>-Tags sind immer visuell erkennbar und haben eigene optische Merkmale.",
+            "C": "Die <h1>-Überschrift sollte typischerweise nur einmal pro Seite verwendet werden.",
+            "D": "<blockquote>-Tags sind für kürzere Zitate innerhalb eines Fließtextes gedacht."
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "Der <p>-Tag wird verwendet, um Text in Absätze zu gliedern.",
+            "B": "Der <div>-Tag hat eine visuelle Darstellung ohne CSS-Styling.",
+            "C": "Das <h1>-Tag sollte mehrmals pro Seite verwendet werden.",
+            "D": "Der <blockquote>-Tag wird für längere Zitate verwendet."
+          },
+          "correct_answers": [
+            "A",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags sollten in einem gut strukturierten Dokument verwendet werden, um die Lesbarkeit und semantische Bedeutung zu verbessern? Wählen Sie alle zutreffenden Optionen.",
+          "options": {
+            "A": "<h1>",
+            "B": "<div>",
+            "C": "<blockquote>",
+            "D": "<img>"
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 2"
+        }
+      ]
+    }
+  ]
+}

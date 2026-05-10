@@ -1,0 +1,134 @@
+{
+  "source_pdf": "Kapitel7.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.8,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Attribute sind Teil des <a>-Tags in HTML?",
+          "options": {
+            "A": "href",
+            "B": "src",
+            "C": "target",
+            "D": "style"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen zu Verlinkungen in HTML sind korrekt? Wählen Sie alle zutreffenden Antworten aus.",
+          "options": {
+            "A": "Das <a>-Tag ist notwendig, um Hyperlinks zu erstellen.",
+            "B": "Interne Verlinkungen verweisen auf Seiten außerhalb der eigenen Domain.",
+            "C": "Externe Verlinkungen verwenden in der Regel vollständige URLs.",
+            "D": "Anker-Verlinkungen erlauben das Springen zu bestimmten Abschnitten innerhalb derselben Webseite."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden Attribute können im <a>-Tag verwendet werden, um die Funktionalität von Hyperlinks zu definieren? Wählen Sie alle zutreffenden Antworten.",
+          "options": {
+            "A": "href",
+            "B": "style",
+            "C": "target",
+            "D": "data-*"
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "C"
+          ],
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Aussagen über die verschiedenen Verlinkungstypen in HTML sind korrekt?",
+          "options": {
+            "A": "Interne Verlinkungen verweisen auf Ressourcen innerhalb der gleichen Domain.",
+            "B": "Externe Verlinkungen verwenden relative Pfade zur Zielressource.",
+            "C": "Anker-Verlinkungen ermöglichen die Navigation zu spezifischen Abschnitten einer Webseite.",
+            "D": "Absolute Verlinkungen geben den vollständigen Pfad zur Zielressource an."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über Hyperlinks in HTML sind korrekt?",
+          "options": {
+            "A": "Absolute Verlinkungen zeigen immer auf dieselbe Adresse, unabhängig von der aktuellen Seite.",
+            "B": "Externe Verlinkungen sollten in demselben Tab geöffnet werden, um die Benutzererfahrung zu verbessern.",
+            "C": "Interne Verlinkungen verwenden relative Pfade und helfen bei der Navigation innerhalb einer Webseite.",
+            "D": "Anker-Verlinkungen ermöglichen es, zu spezifischen Abschnitten innerhalb einer Seite zu navigieren."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Methoden können verwendet werden, um Hyperlinks in HTML zu erstellen? Wählen Sie alle zutreffenden Antworten aus.",
+          "options": {
+            "A": "Verwendung des <a>-Tags mit dem href-Attribut.",
+            "B": "Einfügen von Bildern als Links ohne weitere Attribute.",
+            "C": "Verwendung von E-Mail-Adressen mit dem mailto: Attribut.",
+            "D": "Definition von Anker-Verlinkungen mit dem id-Attribut."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    }
+  ]
+}

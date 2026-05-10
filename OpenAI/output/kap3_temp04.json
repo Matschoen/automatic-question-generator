@@ -1,0 +1,133 @@
+{
+  "source_pdf": "Kapitel3.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.4,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Tags sind Standalone-Tags in HTML?",
+          "options": {
+            "A": "<img>",
+            "B": "<div>",
+            "C": "<br>",
+            "D": "<hr>"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "HTML-Tags sind nicht case-sensitive.",
+            "B": "Jedes HTML-Tag benötigt einen schließenden Tag.",
+            "C": "Standalone-Tags benötigen keinen schließenden Tag.",
+            "D": "HTML-Tags werden in spitzen Klammern < > gesetzt."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden Tags sind Standalone-Tags in HTML?",
+          "options": {
+            "A": "<img>",
+            "B": "<div>",
+            "C": "<br>",
+            "D": "<p>"
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags und deren Verwendung sind korrekt?",
+          "options": {
+            "A": "HTML-Tags sind in spitzen Klammern < > gesetzt und können Start- und End-Tags haben.",
+            "B": "Standalone-Tags benötigen immer ein schließendes Tag.",
+            "C": "Attribute in HTML-Tags können spezifische Merkmale definieren und bestehen aus einem Namen und einem Wert.",
+            "D": "HTML-Tags sind keine eigenständigen Elemente, sondern Textfragmente, die dem Browser die Struktur des Dokuments mitteilen."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML und seine Struktur sind korrekt?",
+          "options": {
+            "A": "HTML ist eine Programmiersprache zur Erstellung von Webseiten.",
+            "B": "Der <head>-Bereich ist wichtig für die Suchmaschinenoptimierung (SEO).",
+            "C": "Standalone-Tags benötigen kein schließendes Tag.",
+            "D": "Der <body>-Bereich enthält alle sichtbaren Inhalte einer Webseite."
+          },
+          "correct_answers": [
+            "B",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Elemente und Strukturen sind notwendig, um ein valides HTML-Dokument zu erstellen?",
+          "options": {
+            "A": "<!DOCTYPE html>",
+            "B": "<head>",
+            "C": "<body>",
+            "D": "<footer>"
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}

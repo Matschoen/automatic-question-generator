@@ -1,0 +1,130 @@
+{
+  "source_pdf": "Kapitel5.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.4,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags werden zur Strukturierung von Webseiten verwendet?",
+          "options": {
+            "A": "<p>",
+            "B": "<div>",
+            "C": "<h1>",
+            "D": "<img>"
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "Der <p>-Tag wird verwendet, um Text in Absätze zu gliedern.",
+            "B": "Der <div>-Tag ist ein Inline-Element, das keinen Einfluss auf das Layout hat.",
+            "C": "Die Überschriftentags <h1> bis <h6> helfen, die Hierarchie der Informationen zu organisieren.",
+            "D": "Der <blockquote>-Tag wird für kürzere Zitate verwendet."
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden Tags können verwendet werden, um Text in HTML zu strukturieren und hervorzuheben? Wählen Sie alle zutreffenden Optionen.",
+          "options": {
+            "A": "<strong>",
+            "B": "<div>",
+            "C": "<blockquote>",
+            "D": "<img>"
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 6"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt? (Wählen Sie alle zutreffenden Antworten aus)",
+          "options": {
+            "A": "Der <p>-Tag wird verwendet, um Text in Absätze zu gliedern.",
+            "B": "<div>-Tags haben eine visuelle Darstellung, selbst ohne CSS.",
+            "C": "<h1>-Tags sollten typischerweise nur einmal pro Seite verwendet werden.",
+            "D": "<blockquote>-Tags sind für kürzere Zitate innerhalb eines Fließtextes gedacht."
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen zu HTML-Tags sind korrekt?",
+          "options": {
+            "A": "Das <p>-Tag wird verwendet, um Text in Absätze zu gliedern.",
+            "B": "Das <div>-Tag hat eine sichtbare Darstellung ohne CSS-Styling.",
+            "C": "Das <h1>-Tag sollte typischerweise nur einmal pro Seite verwendet werden.",
+            "D": "Das <blockquote>-Tag wird für kürzere Zitate verwendet."
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Tags können verwendet werden, um die Struktur und das Layout einer Webseite zu gestalten? (Wählen Sie alle zutreffenden Optionen)",
+          "options": {
+            "A": "<div>",
+            "B": "<blockquote>",
+            "C": "<h1>",
+            "D": "<img>"
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    }
+  ]
+}

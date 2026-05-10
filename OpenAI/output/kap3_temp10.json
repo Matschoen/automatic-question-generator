@@ -1,0 +1,131 @@
+{
+  "source_pdf": "Kapitel3.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 1.0,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags werden als Standalone-Tags betrachtet?",
+          "options": {
+            "A": "<img>",
+            "B": "<div>",
+            "C": "<br>",
+            "D": "<hr>"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML Tags sind korrekt?",
+          "options": {
+            "A": "HTML-Tags werden in spitze Klammern < > gesetzt.",
+            "B": "HTML-Tags sind eine Programmiersprache.",
+            "C": "Standalone-Tags benötigen kein schließendes Tag.",
+            "D": "HTML ist nicht case-sensitive, jedoch wird die Verwendung von Kleinbuchstaben empfohlen."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Elemente sind Standalone-Tags?",
+          "options": {
+            "A": "<img>",
+            "B": "<p>",
+            "C": "<br>",
+            "D": "<meta>"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "HTML-Tags sind case-sensitive und sollten immer in Großbuchstaben verwendet werden.",
+            "B": "Jedes HTML-Element kann Tags enthalten, die den Browser informieren, wo ein Element beginnt und endet.",
+            "C": "Standalone-Tags benötigen kein schließendes Tag.",
+            "D": "Comments in HTML können verschachtelt werden."
+          },
+          "correct_answers": [
+            "B",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche Aussagen über HTML-Tags und deren Verwendung sind korrekt?",
+          "options": {
+            "A": "HTML-Tags sind immer case-sensitive und müssen großgeschrieben werden.",
+            "B": "Standalone-Tags benötigen kein schließendes Tag.",
+            "C": "Attribute werden verwendet, um Tags spezifische Merkmale zu verleihen.",
+            "D": "Kommentare in HTML können innerhalb anderer Kommentare verschachtelt werden."
+          },
+          "correct_answers": [
+            "B",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche Faktoren sollten bei der Erstellung eines HTML-Dokuments berücksichtigt werden, um sicherzustellen, dass es korrekt dargestellt wird? Wählen Sie alle zutreffenden Antworten aus.",
+          "options": {
+            "A": "Die Verwendung der <!DOCTYPE>-Deklaration an oberster Stelle.",
+            "B": "Einfache Nutzung von nur Standalone-Tags.",
+            "C": "Einordnung der Inhalte innerhalb der <head>- und <body>-Tags.",
+            "D": "Die Tags sollten immer in Großbuchstaben geschrieben werden."
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}

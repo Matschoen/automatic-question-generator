@@ -1,0 +1,134 @@
+{
+  "source_pdf": "Kapitel7.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 1.0,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über Verlinkungen in HTML sind korrekt?",
+          "options": {
+            "A": "Hyperlinks sind interaktive Verweise in einem Dokument.",
+            "B": "Der <a>-Tag wird für die Erstellung von Formularen verwendet.",
+            "C": "Das href-Attribut definiert das Ziel des Links.",
+            "D": "Interne Verlinkungen führen zu Ressourcen innerhalb derselben Domain."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über Hyperlinks in HTML sind korrekt?",
+          "options": {
+            "A": "Hyperlinks werden mit dem <a>-Tag erstellt.",
+            "B": "Externe Verlinkungen verweisen immer auf Ressourcen innerhalb derselben Domain.",
+            "C": "Anker-Verlinkungen ermöglichen das Springen zu spezifischen Abschnitten innerhalb eines Dokuments.",
+            "D": "Das href-Attribut gibt das Ziel einer Verlinkung an."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 1-7"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden Attribute des <a>-Tags können Sie verwenden, um das Verhalten eines Links zu beeinflussen?",
+          "options": {
+            "A": "target",
+            "B": "rel",
+            "C": "href",
+            "D": "style"
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Eigenschaften und Funktionen haben interne, externe und Anker-Verlinkungen in HTML? Wählen Sie alle zutreffenden Aussagen aus.",
+          "options": {
+            "A": "Interne Verlinkungen führen zu Ressourcen innerhalb derselben Domain und verwenden oft relative Pfade.",
+            "B": "Externe Verlinkungen nutzen immer relative Pfade, um auf andere Seiten zu zeigen.",
+            "C": "Anker-Verlinkungen ermöglichen es, zu bestimmten Abschnitten innerhalb derselben Webseite zu springen.",
+            "D": "Externe Verlinkungen sind wichtig für zusätzliche Informationen und verwenden meist vollständige URLs."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über Hyperlinks in HTML sind korrekt?",
+          "options": {
+            "A": "Absolute Verlinkungen können unabhängig vom Standort der Seite auf die gleiche Ressource verweisen.",
+            "B": "Interne Verlinkungen verweisen auf Seiten außerhalb der eigenen Domain.",
+            "C": "Anker-Verlinkungen sind nützlich für die Navigation innerhalb langer Dokumente.",
+            "D": "Externe Verlinkungen sollten oft in einem neuen Tab geöffnet werden, um die Benutzererfahrung zu verbessern."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 4"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Ansätze zur Erstellung von Verlinkungen in HTML sind effektiv und sorgen für eine optimale Benutzererfahrung? (Wählen Sie mehrere aus)",
+          "options": {
+            "A": "Verwendung von relativen Links für interne Verlinkungen innerhalb der gleichen Domain.",
+            "B": "Einheitliche Verwendung von absoluten Links für alle Arten von Verlinkungen, unabhängig von der Domain.",
+            "C": "Nutzung des target-Attributs, um externe Links in einem neuen Tab zu öffnen.",
+            "D": "Verwendung des title-Attributs, um zusätzliche Informationen über den Link bereitzustellen."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    }
+  ]
+}

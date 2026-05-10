@@ -1,0 +1,135 @@
+{
+  "source_pdf": "Kapitel7.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.6,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Attribute sind Teil des <a>-Tags in HTML?",
+          "options": {
+            "A": "href",
+            "B": "src",
+            "C": "title",
+            "D": "class"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen zu Hyperlinks in HTML sind korrekt?",
+          "options": {
+            "A": "Hyperlinks werden durch das <a>-Tag erstellt.",
+            "B": "Das href-Attribut gibt den sichtbaren Text des Links an.",
+            "C": "Externe Verlinkungen verwenden in der Regel vollständige URLs.",
+            "D": "Anker-Verlinkungen führen zu spezifischen Abschnitten innerhalb eines Dokuments."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden Attribute des <a>-Tags sind wichtig für die Gestaltung und das Verhalten von Hyperlinks in HTML? Wählen Sie alle zutreffenden Optionen aus.",
+          "options": {
+            "A": "href",
+            "B": "src",
+            "C": "target",
+            "D": "rel"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über die verschiedenen Typen von Verlinkungen in HTML sind korrekt?",
+          "options": {
+            "A": "Interne Verlinkungen verweisen auf Seiten innerhalb derselben Domain.",
+            "B": "Externe Verlinkungen verwenden immer relative Pfade.",
+            "C": "Anker-Verlinkungen ermöglichen die Navigation zu bestimmten Abschnitten innerhalb desselben Dokuments.",
+            "D": "Absolute Verlinkungen geben einen vollständigen Pfad zu einer Ressource an."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über Verlinkungen in HTML sind korrekt? Wählen Sie alle zutreffenden Optionen aus.",
+          "options": {
+            "A": "Interne Verlinkungen verwenden relative Pfade zur Navigation innerhalb derselben Domain.",
+            "B": "Externe Verlinkungen sollten immer im gleichen Tab geöffnet werden, um die Benutzererfahrung zu verbessern.",
+            "C": "Absolute Verlinkungen bieten einen vollständigen Pfad zu einer Ressource und sind unabhängig vom Standort der Seite.",
+            "D": "Anker-Verlinkungen ermöglichen das Springen zu spezifischen Abschnitten innerhalb derselben Webseite."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Ansätze zur Verlinkung in HTML könnten Sie kombinieren, um eine benutzerfreundliche und sichere Navigation zu gewährleisten?",
+          "options": {
+            "A": "Verwendung von relativen Verlinkungen für interne Seiten.",
+            "B": "Einsatz von absoluten Verlinkungen für externe Ressourcen.",
+            "C": "Verlinkung von E-Mail-Adressen mit dem Attribut mailto: für einfache Kontaktaufnahme.",
+            "D": "Nutzung von Anker-Verlinkungen für schnelle Navigation innerhalb der Seite."
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    }
+  ]
+}

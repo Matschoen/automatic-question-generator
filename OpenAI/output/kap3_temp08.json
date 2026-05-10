@@ -1,0 +1,132 @@
+{
+  "source_pdf": "Kapitel3.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.8,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Elemente sind Standalone-Tags in HTML?",
+          "options": {
+            "A": "<img>",
+            "B": "<p>",
+            "C": "<br>",
+            "D": "<hr>"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "HTML-Tags sind case-sensitive.",
+            "B": "Tags werden in spitze Klammern gesetzt.",
+            "C": "Standalone-Tags benötigen kein schließendes Tag.",
+            "D": "HTML-Tags können verschachtelt werden."
+          },
+          "correct_answers": [
+            "B",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden Tags sind Standalone-Tags in HTML?",
+          "options": {
+            "A": "<img>",
+            "B": "<p>",
+            "C": "<br>",
+            "D": "<span>"
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche Aussagen über die Struktur und Funktion von HTML-Elementen sind korrekt? Wählen Sie alle zutreffenden Antworten aus.",
+          "options": {
+            "A": "HTML-Elemente müssen immer in einer bestimmten hierarchischen Struktur angeordnet sein.",
+            "B": "Es gibt sogenannte Standalone-Tags, die kein schließendes Tag benötigen.",
+            "C": "Der Inhalt eines HTML-Elements kann nur aus Text bestehen.",
+            "D": "Attribute innerhalb von HTML-Tags können spezifische Merkmale definieren."
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML und seine Struktur sind korrekt?",
+          "options": {
+            "A": "HTML ist eine Programmiersprache zur Erstellung von Webseiten.",
+            "B": "Der <head>-Bereich enthält Metadaten, die für die Suchmaschinenoptimierung wichtig sind.",
+            "C": "Standalone-Tags wie <img> benötigen kein schließendes Tag.",
+            "D": "HTML-Tags dürfen nur in Großbuchstaben geschrieben werden."
+          },
+          "correct_answers": [
+            "B",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 4"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Vorgehensweisen sind geeignet, um ein HTML-Dokument optimal zu erstellen? Wählen Sie alle zutreffenden Optionen.",
+          "options": {
+            "A": "Verwendung von <meta>-Tags im <head>-Bereich zur Verbesserung der SEO.",
+            "B": "Nutzung von Standalone-Tags ohne Schließtag, um den Code zu vereinfachen.",
+            "C": "Verschachtelung von Kommentaren für bessere Lesbarkeit des Codes.",
+            "D": "Eindeutige Benennung von IDs und Klassen zur klaren Identifikation von Elementen."
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}

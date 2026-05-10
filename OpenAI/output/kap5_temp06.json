@@ -1,0 +1,133 @@
+{
+  "source_pdf": "Kapitel5.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.6,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags sind Standard-Blockelemente?",
+          "options": {
+            "A": "<p>",
+            "B": "<span>",
+            "C": "<div>",
+            "D": "<img>"
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt? (Mehrere Antworten möglich)",
+          "options": {
+            "A": "Der <p>-Tag wird verwendet, um Text in Absätze zu gliedern.",
+            "B": "Der <div>-Tag ist ein Inline-Element und hat keine visuelle Wirkung.",
+            "C": "Die <h1>- bis <h6>-Tags helfen, die Hierarchie der Inhalte zu definieren.",
+            "D": "Der <blockquote>-Tag wird für längere Zitate verwendet."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche HTML-Tags sollten verwendet werden, um einen strukturierten Textabschnitt zu erstellen und dabei sowohl Absätze als auch Überschriften zu formatieren?",
+          "options": {
+            "A": "<p> für Absätze",
+            "B": "<span> für Textauszeichnung",
+            "C": "<h1> bis <h6> für Überschriften",
+            "D": "<div> für Container"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt? (Wählen Sie alle zutreffenden Antworten aus)",
+          "options": {
+            "A": "Der <p>-Tag wird verwendet, um Text in Absätze zu gliedern.",
+            "B": "<div>-Tags sind immer sichtbar und haben eigene optische Merkmale.",
+            "C": "Überschriftentags wie <h1> bis <h6> helfen, die Hierarchie von Inhalten darzustellen.",
+            "D": "Der <img>-Tag ist ein selbstschließendes Element, das Bilder in Webseiten einfügt."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "Der <p>-Tag wird verwendet, um Textabsätze zu strukturieren.",
+            "B": "Der <div>-Tag hat keine visuelle Darstellung ohne CSS.",
+            "C": "Das <h1>-Tag sollte mehrmals pro Seite verwendet werden.",
+            "D": "Der <blockquote>-Tag ist für längere Zitate vorgesehen."
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche HTML-Tags sollten in einem gut strukturierten Dokument verwendet werden, um die semantische Bedeutung und Lesbarkeit zu verbessern? Wählen Sie alle zutreffenden Optionen.",
+          "options": {
+            "A": "<h1> für die Hauptüberschrift",
+            "B": "<div> für die visuelle Gestaltung",
+            "C": "<p> für Absätze",
+            "D": "<span> für Inline-Formatierungen"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 3"
+        }
+      ]
+    }
+  ]
+}

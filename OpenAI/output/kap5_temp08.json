@@ -1,0 +1,133 @@
+{
+  "source_pdf": "Kapitel5.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.8,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche Tags werden in HTML zur Strukturierung von Inhalten verwendet? (Mehrere Antworten möglich)",
+          "options": {
+            "A": "<p>",
+            "B": "<footer>",
+            "C": "<div>",
+            "D": "<h1>"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags helfen bei der Strukturierung von Webseiten?",
+          "options": {
+            "A": "<p>",
+            "B": "<strong>",
+            "C": "<h1>",
+            "D": "<div>"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags können verwendet werden, um Textabschnitte zu strukturieren und hervorzuheben? Mehrere Antworten sind möglich.",
+          "options": {
+            "A": "<p>",
+            "B": "<img>",
+            "C": "<blockquote>",
+            "D": "<strong>"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt? Wählen Sie alle zutreffenden Antworten aus.",
+          "options": {
+            "A": "Das <p>-Tag wird verwendet, um Text in Absätze zu gliedern.",
+            "B": "<div>-Tags können optisch wahrnehmbar sein, auch ohne CSS-Styling.",
+            "C": "Das <h1>-Tag sollte typischerweise nur einmal pro Seite verwendet werden.",
+            "D": "<blockquote>-Tags sind für kürzere Zitate im Fließtext gedacht."
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "Das <p>-Tag ist ein Blockelement und hilft bei der Textgliederung.",
+            "B": "Das <div>-Tag wird verwendet, um Inline-Elemente zu formatieren.",
+            "C": "Das <h1>-Tag sollte nur einmal pro Seite verwendet werden, um die SEO zu verbessern.",
+            "D": "Das <blockquote>-Tag wird für längere Zitate verwendet und hebt diese visuell hervor."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Tags können verwendet werden, um die Struktur und das Design einer Webseite zu verbessern? Wählen Sie alle zutreffenden Antworten aus.",
+          "options": {
+            "A": "<div>",
+            "B": "<span>",
+            "C": "<p>",
+            "D": "<u>"
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "C"
+          ],
+          "source": "Kapitel5.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}

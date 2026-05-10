@@ -1,0 +1,132 @@
+{
+  "source_pdf": "Kapitel7.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.4,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Attribute können im <a>-Tag verwendet werden? (Mehrere Antworten möglich)",
+          "options": {
+            "A": "href",
+            "B": "src",
+            "C": "title",
+            "D": "alt"
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über Hyperlinks in HTML sind korrekt?",
+          "options": {
+            "A": "Hyperlinks können auf interne und externe Ressourcen verweisen.",
+            "B": "Das href-Attribut bestimmt den sichtbaren Linktext.",
+            "C": "Anker-Verlinkungen führen zu spezifischen Abschnitten innerhalb derselben Webseite.",
+            "D": "Externe Verlinkungen verwenden in der Regel vollständige URLs."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden Attribute des <a>-Tags können verwendet werden, um das Verhalten eines Links zu steuern? Wählen Sie alle zutreffenden Antworten.",
+          "options": {
+            "A": "target",
+            "B": "src",
+            "C": "rel",
+            "D": "title"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über die verschiedenen Arten von Verlinkungen in HTML sind korrekt?",
+          "options": {
+            "A": "Interne Verlinkungen verwenden relative Pfade und verweisen auf Seiten innerhalb derselben Domain.",
+            "B": "Externe Verlinkungen sind immer absolute Links, die auf Ressourcen außerhalb der eigenen Domain zeigen.",
+            "C": "Anker-Verlinkungen ermöglichen die Navigation zu spezifischen Abschnitten innerhalb eines Dokuments.",
+            "D": "Relative Verlinkungen sind nur für externe Links geeignet und sollten nicht innerhalb derselben Domain verwendet werden."
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "C"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über Hyperlinks in HTML sind korrekt?",
+          "options": {
+            "A": "Hyperlinks können nur auf externe Webseiten verweisen.",
+            "B": "Das href-Attribut ist entscheidend für die Zieldefinition eines Links.",
+            "C": "Interne Verlinkungen verwenden relative Pfade zur Navigation innerhalb derselben Domain.",
+            "D": "Anker-Verlinkungen sind ausschließlich für externe Links gedacht."
+          },
+          "correct_answers": [
+            "B",
+            "C"
+          ],
+          "source": "Kapitel7.pdf, Seite 3"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Attribute des <a>-Tags in HTML können zur Verbesserung der Benutzererfahrung und der Navigation auf Webseiten verwendet werden? Wählen Sie alle zutreffenden Optionen.",
+          "options": {
+            "A": "target",
+            "B": "style",
+            "C": "rel",
+            "D": "title"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel7.pdf, Seite 2"
+        }
+      ]
+    }
+  ]
+}

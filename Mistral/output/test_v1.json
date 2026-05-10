@@ -1,0 +1,11 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "temperature": 0.2,
+  "chapters": [
+    {
+      "chapter_name": "Kapitel3",
+      "source_pdf": "Kapitel3.pdf",
+      "bloom_levels": []
+    }
+  ]
+}

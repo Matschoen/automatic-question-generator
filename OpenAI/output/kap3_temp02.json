@@ -1,0 +1,132 @@
+{
+  "source_pdf": "Kapitel3.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 0.2,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Tags sind Standalone-Tags in HTML?",
+          "options": {
+            "A": "<img>",
+            "B": "<div>",
+            "C": "<br>",
+            "D": "<p>"
+          },
+          "correct_answers": [
+            "A",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "HTML-Tags sind in spitze Klammern gesetzt.",
+            "B": "HTML-Tags sind immer case-sensitive.",
+            "C": "Standalone-Tags benötigen kein schließendes Tag.",
+            "D": "Tags können Attribute haben, die spezifische Merkmale definieren."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt? Wählen Sie alle zutreffenden Antworten aus.",
+          "options": {
+            "A": "HTML-Tags sind nicht case-sensitive und sollten in Kleinbuchstaben geschrieben werden.",
+            "B": "Standalone-Tags benötigen immer ein schließendes Tag.",
+            "C": "Der <head>-Bereich enthält Metadaten und strukturelle Informationen für das Dokument.",
+            "D": "HTML-Tags können verschachtelt werden, solange die Struktur beachtet wird."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags und deren Verwendung sind korrekt? (Wählen Sie alle zutreffenden Antworten aus)",
+          "options": {
+            "A": "HTML-Tags sind case-sensitive und müssen in Großbuchstaben geschrieben werden.",
+            "B": "Standalone-Tags benötigen kein schließendes Tag.",
+            "C": "Attribute in HTML-Tags können spezifische Merkmale definieren.",
+            "D": "HTML-Kommentare können nicht verschachtelt werden."
+          },
+          "correct_answers": [
+            "B",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML und seine Struktur sind korrekt?",
+          "options": {
+            "A": "HTML ist eine Programmiersprache zur Erstellung von Webseiten.",
+            "B": "Die <!DOCTYPE>-Deklaration ist entscheidend für die korrekte Darstellung von Webseiten.",
+            "C": "Der <head>-Bereich enthält Metadaten, die für Suchmaschinenoptimierung wichtig sind.",
+            "D": "Standalone-Tags benötigen immer ein schließendes Tag."
+          },
+          "correct_answers": [
+            "B",
+            "C"
+          ],
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Elemente und Strukturen sollten in einem HTML-Dokument enthalten sein, um eine korrekte Darstellung zu gewährleisten? Wählen Sie alle zutreffenden Antworten aus.",
+          "options": {
+            "A": "<!DOCTYPE html>",
+            "B": "<footer>",
+            "C": "<head>",
+            "D": "<body>"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel3.pdf, Seite 5"
+        }
+      ]
+    }
+  ]
+}

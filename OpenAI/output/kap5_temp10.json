@@ -1,0 +1,133 @@
+{
+  "source_pdf": "Kapitel5.pdf",
+  "model": "gpt-4o-mini",
+  "temperature": 1.0,
+  "question_count_per_level": 1,
+  "questions_by_bloom": [
+    {
+      "bloom_level": "1",
+      "bloom_name": "Wissen",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags sind für die Strukturierung von Text verantwortlich?",
+          "options": {
+            "A": "<p>",
+            "B": "<img>",
+            "C": "<h1>",
+            "D": "<div>"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "2",
+      "bloom_name": "Verstehen",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über HTML-Tags sind korrekt?",
+          "options": {
+            "A": "Der <p>-Tag wird verwendet, um Absätze zu gliedern.",
+            "B": "<div>-Tags sind visuell erkennbar ohne CSS.",
+            "C": "Überschriftentags helfen, die Hierarchie von Informationen zu definieren.",
+            "D": "Ein <span>-Tag hat keinen Einfluss auf die Dokumentstruktur."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "3",
+      "bloom_name": "Anwenden",
+      "questions": [
+        {
+          "question": "Welche der folgenden HTML-Tags können verwendet werden, um Text in einem Dokument zu formatieren? Wählen Sie alle zutreffenden Optionen.",
+          "options": {
+            "A": "<strong>",
+            "B": "<h1>",
+            "C": "<p>",
+            "D": "<div>"
+          },
+          "correct_answers": [
+            "A",
+            "B"
+          ],
+          "source": "Kapitel5.pdf, Seite 2"
+        }
+      ]
+    },
+    {
+      "bloom_level": "4",
+      "bloom_name": "Analysieren",
+      "questions": [
+        {
+          "question": "Welche der folgenden Aussagen über die Verwendung von HTML-Tags sind korrekt? (Mehrere Antworten möglich)",
+          "options": {
+            "A": "Der <p>-Tag wird verwendet, um Text in Absätze zu gliedern.",
+            "B": "<span>-Tags haben keinen Einfluss auf das Layout oder die Struktur des Dokuments.",
+            "C": "Der <img>-Tag benötigt immer ein schließendes Tag.",
+            "D": "Der <div>-Tag dient dazu, Abschnitte des Dokuments zu gruppieren."
+          },
+          "correct_answers": [
+            "A",
+            "B",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "5",
+      "bloom_name": "Bewerten",
+      "questions": [
+        {
+          "question": "Welche Aussagen zu HTML-Tags sind korrekt? (Mehrere Antworten möglich)",
+          "options": {
+            "A": "Der <div>-Tag dient hauptsächlich zur strukturellen Gruppierung von Inhalten.",
+            "B": "Das <h1>-Tag kann mehr als einmal pro Seite verwendet werden.",
+            "C": "Der <p>-Tag ist für die Gliederung von Fließtext zuständig.",
+            "D": "Der <img>-Tag wird verwendet, um Bilder in Webdokumente einzufügen."
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 1"
+        }
+      ]
+    },
+    {
+      "bloom_level": "6",
+      "bloom_name": "Erstellen",
+      "questions": [
+        {
+          "question": "Welche HTML-Tags sollten in einem strukturierten Dokument verwendet werden, um verschiedene Inhalte klar zu organisieren?",
+          "options": {
+            "A": "<h1> für Hauptüberschrift",
+            "B": "<p> für Listenpunkte",
+            "C": "<div> für logische Abschnitte",
+            "D": "<blockquote> für längere Zitate"
+          },
+          "correct_answers": [
+            "A",
+            "C",
+            "D"
+          ],
+          "source": "Kapitel5.pdf, Seite 3"
+        }
+      ]
+    }
+  ]
+}
